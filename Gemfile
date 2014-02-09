@@ -1,9 +1,17 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.2'
+
+# Database
 gem 'pg'
+
+# Server
 gem 'thin'
 
+# Auth
+gem "devise", "~> 3.2.2"
+
+# Assets
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -13,6 +21,7 @@ gem 'haml-rails'
 gem 'bootstrap-sass', '3.1.0.2'
 gem 'font-awesome-rails'
 
+# Fake data
 gem 'forgery', '0.5.0', group: [:development, :test]
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -26,6 +35,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Testing
 gem 'rspec-rails', group: [:development, :test]
 group :test do
   gem 'factory_girl_rails'
