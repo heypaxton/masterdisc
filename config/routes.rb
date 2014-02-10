@@ -1,4 +1,7 @@
 Masterdisc::Application.routes.draw do
   devise_for :users
-  root to: "home#index"  
+  
+  get "dashboard", to: "dashboard#index"
+
+  root to: "home#index"
 end
