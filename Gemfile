@@ -21,6 +21,9 @@ gem 'haml-rails'
 gem 'bootstrap-sass', '3.1.0.2'
 gem 'font-awesome-rails'
 
+# Mailing
+gem 'gibbon'
+
 # Fake data
 gem 'forgery', '0.5.0', group: [:development, :test]
 
